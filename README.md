@@ -9,10 +9,10 @@ pip install --upgrade beautifulsoup, urllib
 
 2. Caution
 
-- Google CSE provides '10 Result * 10 Pages' and 100 query per day
+- Google CSE provides maximum '10 Result * 10 Pages' and 100 query per day
   You cannot get more than 10 pages per query even if you pay for it.
 
-- Google CSE is officially providing various search options but the result is different from Goodle Search. From my personal experience, one-site per one cse-id was the best. (2017.06)
+- Google CSE is officially providing various search options but the result is different from Goodle.  I recommend one-site per one cse-id as an option (2017.06)
 
 - If you do google by using urllib, google will block your IP and asking 'are you robot?'.
 
