@@ -1,10 +1,11 @@
 # WebCrawling through Google CSE
 
 1. Google API Client and Beautifulsoup, urllib libraries are required 
-'''
+
+```
 pip install --upgrade google-api-python-client 
 pip install beautifulsoup, urllib
-'''
+```
 
 2. Caution
 
@@ -17,9 +18,10 @@ pip install beautifulsoup, urllib
 (3) If you do google by using urllib, google will block the IP and asking 'are you robot'.
 
 3. Example
+
 (1) Setup the CSE Code and API
 
-'''python
+```python
 # You have to take a key from google CSE
 # You can get an API key from https://developers.google.com/maps/documentation/javascript/get-api-key?hl=ko#key
 my_api_key = "** YOUR API KEY **"
@@ -31,10 +33,10 @@ my_cse_id= "** YOUR CSE ID **"
 
 # Insert the site in the CSE setup
 search_site = "** SITE in the CSE setup **"
-'''
+```
 
 (2) Do the Search Query as below:
 
-'''python
+```python
 doSearchWithSaving("Search Term")
-'''
+```
