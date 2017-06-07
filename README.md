@@ -1,13 +1,13 @@
 # WebCrawling through Google CSE
 
-1. Google API Client and Beautifulsoup, urllib libraries are required 
+1. Usage
+
+- Google API Client and Beautifulsoup, urllib libraries are required 
 
 ```
 pip install --upgrade google-api-python-client 
 pip install --upgrade beautifulsoup, urllib
 ```
-
-2. Caution
 
 - Google CSE provides maximum '10 Result * 10 Pages' and 100 query per day
   You cannot get more than 10 pages per query even if you pay for it.
@@ -16,7 +16,7 @@ pip install --upgrade beautifulsoup, urllib
 
 - If you do google by using urllib, google will block your IP and asking 'are you robot?'.
 
-3. Example
+2. Example
 
 - Setup the CSE Code and API
 
@@ -37,5 +37,5 @@ search_site = "** SITE in the CSE setup **"
 - Do the Search Query as below:
 
 ```python
-doSearchWithSaving("Search Term")
+doSearchWithSaving("your keyword")
 ```
